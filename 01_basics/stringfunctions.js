@@ -1,29 +1,31 @@
-// anchor method
-const name = "Hello World"
-// console.log(name.anchor("hello"));
+//anchor method
+let v1= "Susovan Saha"
+//console.log(v1.anchor("hello"));
 
-//Array.at()
-const array1 = [1,3,5,7];
-let index = 2
-//console.log(`An index of ${index} returns ${array1.at(index)}`);
+//Array.at method
 
-//String.prototype.blink()
-const contentString = "Hello, world";
-// console.log(contentString.blink());
+let v2 = [1,2,3,4,5]
+let index = 4                 //it returns the next value of the typed integer
+//console.log(v2.at(index));
 
-// String.prototype.bold()
-//console.log(contentString.bold());
+//string prototype.big
 
-// String.prototype.charAt()
-const sentence = 'The quick brown fox jumps over the lazy dog.';
-const indexnum = 3;
-//console.log(sentence.charAt(indexnum));
+let v3 = "Hello World"
+//console.log(v3.big());
 
-//String.prototype.charCodeAt()
-const sentence2 = 'The quick brown fox jumps over the lazy dog.';
+//string.protoype.charAt() //charAt and charcodeAt is equal
 
-const indexnum2 = 4;
-console.log(sentence2.charCodeAt(indexnum2));
+let v4 = "I am susovan saha"
+let index1 = 0;                    //basically it tells what is the character perspective of the position value 
+console.log(v4.charAt(index1));
+
+
+
+
+
+
+
+
 
 
 
